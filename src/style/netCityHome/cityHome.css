@@ -1,0 +1,898 @@
+.cityBigBox{
+    width: 100%;
+    /*height: 100vh;*/
+    /*background-color: aquamarine;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.navBigBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.headBoxSheet{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+}
+.zhuceBox{
+    width: 100%;
+    height: 0.8rem;
+    box-shadow: 2px 6px 12px #888888 inset;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    background-color: #E6E6E6;
+    /*background-color: aquamarine;*/
+}
+.zhuceBox_btn{
+    width: 24%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.26rem;
+    color: #ffffff;
+    background-color: #FF0000;
+}
+.zhuceBox_font{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 0.24rem;
+    justify-content: flex-start;
+    flex-direction: row;
+    /*background-color: aquamarine;*/
+}
+.cityTitleBox{
+    width: 100%;
+    height: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+.cityTitleBox_left{
+    width: 30%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: #888888;*/
+}
+.cityTitleBox_line{
+    width: 2px;
+    height: 40%;
+    background-color: #006699;
+}
+.cityTitleBox_font{
+    width: 58%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: #E6E6E6;*/
+}
+.cityTitleBox_fontOne{
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.28rem;
+    color: #006699;
+}
+.cityTitleBox_fontTwo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 0.24rem;
+    color: #006699;
+}
+.cityTitleBox_right{
+    width: 13%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #FF0000;*/
+}
+.lunboBox{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E6E6E6;
+}
+.lunboBigBox{
+    width: 100%;
+    height: 9.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.lunboBigBox_swiper{
+    width: 100%;
+    height: 7.5rem;
+    /*background-color: #FF0000;*/
+}
+.lunboBigBox_slice{
+    width: 78%;
+    height: 2.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: fuchsia;*/
+}
+.sliceBox{
+    width: 22%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: aquamarine;*/
+}
+.sliceBox_top{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #ffffff;*/
+}
+.sliceBox_bot{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.38rem;
+    font-weight: bold;
+    color: #006699;
+}
+.swiperBox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: white;*/
+}
+.libaoBox{
+    width: 100%;
+    height: 1.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.kuaisuBox{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #E6E6E6;
+}
+.kuaisuBox_top{
+    width: 96%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    /*background-color: #ffffff;*/
+}
+.kuaisuBoxtop_left{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.34rem;
+    color: #006699;
+    font-weight: bold;
+    /*background-color: fuchsia;*/
+}
+.kuaisuBoxtop_right{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.24rem;
+    color: #666666;
+}
+.kuaisuBox_bot{
+    width: 98%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /*background-color: #FF0000;*/
+}
+.kuaisuBoxbot_Box{
+    width: 33%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.suBoxbot_Boxtop{
+    width: 42%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.suBoxbot_Boxbot{
+    width: 100%;
+    height: 37%;
+    display: flex;
+    font-size: 0.28rem;
+    color: #666666;
+    align-items: center;
+    justify-content: center;
+    /*background-color: aquamarine;*/
+}
+.kuaisuBoxtwo{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #E6E6E6;
+}
+.kuaisuBox_bottwo{
+    width: 98%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /*background-color: #FF0000;*/
+}
+.suBox_bottwo{
+    width: 49%;
+    height: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 18px;
+}
+.suBox_bottwoBox{
+    width: 82%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: hotpink;*/
+}
+.kuaisuBoxtop_nav{
+    margin-left: 0.3rem;
+    margin-top: 0.1rem;
+    font-size: 0.24rem;
+    font-weight: 500;
+    color: #666666;
+}
+.bottwoBox_navTop{
+    width: 100%;
+    height: 20%;
+    font-size: 0.3rem;
+    color: #000000;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /*background-color: thistle;*/
+}
+.bottwoBox_navBox{
+    width: 100%;
+    height: 30%;
+    font-size: 0.22rem;
+    color: #006699;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    /*background-color: aquamarine;*/
+}
+.bottwoBox_navBot{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.kuaisuBoxthr{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #E6E6E6;
+}
+.kuaisuBox_botthr{
+    width: 98%;
+    height: 3rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.suBox_botthrleft{
+    width: 49%;
+    height: 96%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.botthrleftNav{
+    width: 81%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: aquamarine;*/
+}
+.botthrleftNav_title{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+.botthrleftNav_nav{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: left;
+    font-size: 0.22rem;
+    color: #006699;
+}
+.botthrleftNav_foot{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.suBox_botthrright{
+    width: 49%;
+    height: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /*background-color: #FF0000;*/
+}
+.botthrrightBox{
+    width: 100%;
+    height: 48%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+.botthrrightBox_left{
+    width: 65%;
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: thistle;*/
+}
+.botthrrightBox_right{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: aqua;*/
+}
+.kefuBox{
+    width: 100%;
+    height: 3.5rem;
+    background: url("../../assets/kefu/beijing.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: aqua;*/
+}
+.kefuBoxTop{
+    width: 90%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: aqua;*/
+}
+.kefuBoxTopleft{
+    width: 25%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: fuchsia;*/
+}
+.kefuBoxTopleft_img{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: white;*/
+}
+.kefuBoxTopleft_font{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kefuBoxTopnav{
+    width: 50%;
+    height: 86%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    /*background-color: aqua;*/
+}
+.kefuBoxTopnav_head{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 0.05rem;
+}
+.kefuBoxTopnav_nav{
+    width: 57%;
+    height: 30%;
+    background-color: #FF0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.26rem;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.kefuBoxTopnav_foot{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: fuchsia;*/
+}
+.kefuBoxTopnav_footimg{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: white;*/
+}
+.kefuBoxTopnav_footfont{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.26rem;
+    color: #ffffff;
+}
+.kefuBoxTopright{
+    width: 25%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: fuchsia;*/
+}
+.kefuBoxBot{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    /*background-color: antiquewhite;*/
+}
+.kefuBoxname{
+    width: 30%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kefuBoxBtn{
+    width: 35%;
+    height: 50%;
+    border-radius: 18px;
+    background-color: #FF0000;
+    font-size: 0.18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.inputBox{
+    width: 100%;
+    height: 70%;
+    /*background-color: #2c3e50;*/
+    outline:none;
+    font-size: 0.2rem;
+    /*border-radius: 3px;*/
+    border: 0px;
+
+}
+.inputBoxyanz{
+    width: 100%;
+    height: 70%;
+    /*background-color: #2c3e50;*/
+    outline:none;
+    font-size: 0.2rem;
+    /*border-radius: 3px;*/
+    border: 0px;
+}
+.kuaisuBoxfor{
+    width: 100%;
+    height: 5.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #E6E6E6;
+}
+.kuaisuBox_botfor{
+    width: 98%;
+    height: 4.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.suBox_botfortop{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.suBox_botfortopBox{
+    width: 33%;
+    height: 100%;
+    /*background-color: aqua;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botfortopBox_nav{
+    width: 92%;
+    height: 92%;
+    border: 1px solid #E6E6E6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.botfortopBox_navtitle{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.3rem;
+    color: #CC0000;
+    text-shadow: 0px 5px 11px #b5b1b1;
+}
+.botfortopBox_navBox{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.24rem;
+    color: #666666;
+    font-weight: 400;
+}
+.botfortopBox_navFoot{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.suBox_botforbot{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.suBox_botforbotBox{
+    width: 67%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: aqua;*/
+}
+.botforbotBox{
+    width: 93%;
+    height: 92%;
+    border: 1px solid #E6E6E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.botforbotBox_left{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: aquamarine;*/
+}
+.botforbotBox_right{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #FF0000;*/
+}
+.kuaisuBoxFiv{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #E6E6E6;
+}
+.kuaisuBox_botFiv{
+    width: 98%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /*background-color: #FF0000;*/
+}
+.suBox_botFivBox{
+    width: 19%;
+    height: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+.botFivBoxImg{
+    width: 75%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #E6E6E6;*/
+}
+.botFivBoxFont{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.26rem;
+    color: #666666;
+    /*background-color: white;*/
+}
+.kuaisuBoxSix{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #E6E6E6;
+    /*background-color: #FF0000;*/
+}
+.kuaisuBox_botSix{
+    width: 98%;
+    height: 3rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /*background-color: #FF0000;*/
+}
+.suBox_botSixBox{
+    width: 100%;
+    height: 2.18rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #E6E6E6;
+}
+.suBox_botSixBoxtop{
+    width: 90%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    /*background-color: #FF0000;*/
+}
+.botSixBoxtopBox{
+    width: 28%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: #666666;
+    background-color: #ffffff;
+}
+.kuaisuBoxSev{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    padding-bottom:0.2rem;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #E6E6E6;
+}
+.kuaisuBoxSev_name{
+    width: 88%;
+    height: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.kuaisuBoxSev_btn{
+    width: 38%;
+    height: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.28rem;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    background-color: #FF0033;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+.inputBoxtwo{
+    width: 100%;
+    height: 100%;
+    /*background-color: #2c3e50;*/
+    outline:none;
+    font-size: 0.28rem;
+    /*border-radius: 3px;*/
+    border: 0px;
+
+}
+.inputBoxyanztwo{
+    width: 100%;
+    height: 100%;
+    /*background-color: #2c3e50;*/
+    outline:none;
+    font-size: 0.28rem;
+    /*border-radius: 3px;*/
+    border: 0px;
+}
+.footerSheet{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E6E6E6;
+}
+.footerSheet_img{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    /*background-color: floralwhite;*/
+
+}
+.footerSheet_imgbox{
+    width: 40%;
+    height: 66%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: red;*/
+}
+.footerSheet_font{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666666;
+    font-weight: bold;
+    font-size: 0.24rem;
+}
+.footerSheet_kong{
+    width: 100%;
+    height: 10%;
+}
+.footerTabertwo{
+    width: 100%;
+    height: 1rem;
+    background-color: #E6E6E6;
+}
+.footerTaber{
+    width: 100%;
+    height: 1rem;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: #E6E6E6;
+}
